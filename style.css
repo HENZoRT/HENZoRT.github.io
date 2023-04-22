@@ -1,0 +1,279 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+.pagina {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;  
+}
+
+
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+/* .navbar {
+  margin-right: 10px;
+
+  display: flex;
+  height: 55px;
+  width: 100%;
+  /* background: #0f0f10; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  animation: pageShow .3s ease-in-out;
+
+} */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  animation: pageShow .3s ease-in-out;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 4px;
+}
+
+ nav ul li a {
+  color: #fff ;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: lighter;
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+  color: #f69d3c;
+  background: #1d1e21;
+}
+
+nav ul li a.active:hover {
+  background-color: #f69d3c;
+  color: #202225;
+  border: #eb4040;
+}
+
+nav .menu-btn i {
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  display: none;
+}
+
+nav .openMenu {
+  font-size: 25px;
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+nav .mainMenu .closeMenu,
+.icons i {
+  font-size: 2rem;
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+.navbar a {
+  display: block;
+  padding: 20px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.navbar a:hover {
+  background: #3f3f3f;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: bold !important;
+  color: #f69d3c;
+  margin-left: 70px;
+  text-decoration: none;
+  margin-top: 100px;
+}
+
+.logo  img {
+  position: absolute;
+  border-radius: 50%;
+  height: 40px;
+  margin-top: 11px;
+  margin-left: -50px;
+  box-shadow: 0 .3rem 5rem rgba(239, 192, 6, 0.5);
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header {
+  height: 60vh !important;
+  background: linear-gradient(#f69d3c, #eb4040);
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 100px;
+}
+.imagent {
+margin: 16px 0px;
+width: 48px;
+height: 48px;
+border-radius: 17px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 40px;
+  border: 2px solid #Ffde59;
+  color: #000000;
+  text-decoration: none;
+  background: #Ffde59;
+}
+
+.btn:hover {
+  background: none;
+  
+}
+
+.btn-home {
+  display: flex;
+}
+
+.btn-home a {
+  margin: 0 10px;
+}
+
+
+.content {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sau {
+  padding: 30px;
+  background: #1f1d1d
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+.box-container .box {
+  height: 11rem;
+  width: 17rem;
+  border: #171717 2px solid;
+  background: #eb4040;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem 5rem rgba(239, 192, 6, 0.5);
+  margin: 2rem;   
+}
+
+.box-container .box i {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background: #Ffde59;
+  font-size: 2rem;
+  margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+  font-size: 20px;
+  color: #Ffde59;
+
+}
+
+.box-container .box p {
+  padding: 0 15px;
+  font-size: 16px;
+}
+
+.about {
+  background: #171717;
+}
+
+.price {
+  background: #eb4040;
+  background: linear-gradient(#f69d3c, #eb4040);
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+
+.contact {
+  padding-top: 20px;
+  background: #171717;
+  padding-bottom: 0;
+}
+
+
+  
